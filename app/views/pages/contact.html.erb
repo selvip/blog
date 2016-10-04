@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clean Blog - Contact</title>
+		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/local.css" rel="stylesheet">
+		<style>
+		 #map {
+		   width: 100%;
+		   height: 400px;
+		   background-color: grey;
+		 }
+		</style>
+	</head>
+	<body>
+<header class="header header-default">
+	<div class="navbar navbar-default">
+		<div class="container">
+			<a href="#" class="navbar-brand">
+				clean-blog.com
+			</a>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Home</a></li>
+				<li><a href="/blogpost">Blogposts</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/dashboard">Dashboard</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-sm-12">
+				<div class="jumbotron center-block" style="
+				margin:0;
+				background: url(img/large-open-air-course-with-golf-stick-and-ball-web-header.jpg) no-repeat;
+				display: block;">
+					<h1 style="color:#fff;margin:0;">
+						CLEAN BLOG
+					</h1>
+				</div>
+		</div>
+		<hr/>
+	</div>
+</header>
+
+<section>
+	<div class="container">
+		<div class="col-sm-3">
+			<h3>Contact us!</h3>
+			<form action="http://localhost:3000/sample_get" method="get">
+				<div class="form-group">
+				  <label for="input_username">Name</label>
+				  <input type="text" class="form-control" placeholder="username" id="input_username">
+				</div>
+				<div class="form-group">
+				  <label for="input_password">Email</label>
+				  <input type="password" class="form-control" placeholder="password" id="input_password">
+				</div>
+				<div class="form-group">
+				  <label for="input_message">Message</label>
+				  <input type="text" class="form-control" placeholder="message" id="input_message">
+				</div>
+				<div class="input-group">
+					<button class="btn btn-default" aria-describedby="basic-addon1">Submit</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-9">
+			<h3>Maps</h3>
+			<div id="map"><img src="img/map.png" width="100%" height="100%"></div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer" style="position: absolute;">
+  <div class="container">
+  	<div class="col-sm-12">
+    	<address>
+      	<strong>CLEAN BLOG <span class="glyphicon glyphicon-user" aria-hidden="true"></span></strong><br />
+        Jakarta, Indonesia <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br />
+        (123) 456-7890 <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><br />
+        <a href="mailto:#">clean-blog@clean-blog.com </a><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+    	</address>
+  	</div>
+	</div>
+</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+.media{
+  margin: 10px 0 0 0;
+  padding: 15px 5px 5px 5px;
+}
+.media-object{
+  width: auto;
+  height: 100px;
+}
+.footer {
+  position: relative;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  padding: 100px 0 100px 0;
+  background-color: black;
+}
+section{
+  padding: 20px 0 20px 0;
+}
+.jumbotron{
+  width: auto;
+  height: auto;
+}
+#content{
+  margin-left: 10px;
+  padding: 10px 10px 0 10px;
+  font-size: 16px;
+}
+
+#writer, #comment, #view{
+  margin-left: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  background-color: #e6e9ed;
+}
+
+
+#content p{
+  padding: 0 0 20px 0;
+  text-align: justify;
+}
+
+.commentator{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.comment{
+  padding: 15px 0 0 0;
+}
+.comment p{
+  font-size: 12px;
+}
