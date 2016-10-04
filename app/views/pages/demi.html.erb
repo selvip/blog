@@ -2,8 +2,6 @@
 <html>
 	<head>
 		<title>Clean Blog - Demi Penghematan, Arab Saudi Pakai Kalender Masehi</title>
-		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/local.css" rel="stylesheet">
 	</head>
 	<body>
 <header class="header header-default">
@@ -24,7 +22,7 @@
 		<div class="col-sm-12">
 				<div class="jumbotron center-block" style="
 				margin:0;
-				background: url(img/demi.jpg) 0 0/100% 100% no-repeat;
+				background: url(<%= asset_path 'img/demi.jpg' %> ) 0 0/100% 100% no-repeat;
 				display: block;">
 					<h1 style="color:#fff;margin:0;">
 						Demi Penghematan, Arab Saudi Pakai Kalender Masehi
@@ -38,7 +36,7 @@
 	<div class="container">
 		<div class="col-sm-8">
 			<div id="writer">
-				<strong>Written by</strong> <em><a href"#">kucing_tetangga</a></em>  
+				<strong>Written by</strong> <em><a href"#">kucing_tetangga</a></em>
 			</div>
 			<div id="content">
 				<p><strong>Jakarta, CNN Indonesia</strong> -- Pemerintah Arab Saudi menerapkan sistem kalender Gregorian atau Masehi dalam pembayaran gaji pegawai negeri. Perubahan dari kalender Hijriah ke Masehi ini berlaku sejak Sabtu (1/10). </p>
@@ -119,7 +117,5 @@
   	</div>
 	</div>
 </footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>

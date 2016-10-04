@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   get '/saling', to: 'pages#saling'
   get '/demi', to: 'pages#demi'
 
-  root 'pages#contact'
+  root 'pages#blogpost'
 end

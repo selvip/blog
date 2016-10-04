@@ -2,8 +2,6 @@
 <html>
 	<head>
 		<title>Clean Blog - Blogpost</title>
-		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/local.css" rel="stylesheet">
 	</head>
 	<body>
 <header class="header header-default">
@@ -24,7 +22,7 @@
 		<div class="col-sm-12">
 				<div class="jumbotron center-block" style="
 				margin:0;
-				background: url(img/large-open-air-course-with-golf-stick-and-ball-web-header.jpg) no-repeat;
+				background: url(<%= asset_path 'img/large-open-air-course-with-golf-stick-and-ball-web-header.jpg' %> ) no-repeat;
 				display: block;">
 					<h1 style="color:#fff;margin:0;">
 						CLEAN BLOG
@@ -41,7 +39,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="#">
-							<img class="media-object img-rounded" src="img/jalanan.jpg" alt="jalanan">
+							<%= image_tag 'img/jalanan.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -54,7 +52,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="\ahok">
-							<img class="media-object img-rounded" src="img/ahok.jpg" alt="ahok">
+							<%= image_tag 'img/ahok.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -67,7 +65,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="\gojek">
-							<img class="media-object img-rounded" src="img/gojek.jpg" alt="gojek">
+							<%= image_tag 'img/gojek.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -80,7 +78,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="\demi">
-							<img class="media-object img-rounded" src="img/demi.jpg" alt="demi">
+							<%= image_tag 'img/demi.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -93,7 +91,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="\saling">
-							<img class="media-object img-rounded" src="img/saling.jpg" alt="saling">
+							<%= image_tag 'img/saling.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -106,7 +104,7 @@
 				<div class="media">
 					<div class="media-left">
 						<a href="#">
-							<img class="media-object img-rounded" src="img/sri.jpg" alt="sri">
+							<%= image_tag 'img/sri.jpg', :class => 'media-object img-rounded' %>
 						</a>
 					</div>
 					<div class="media-body">
@@ -132,7 +130,5 @@
   	</div>
 	</div>
 </footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>

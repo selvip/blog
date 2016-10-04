@@ -2,8 +2,6 @@
 <html>
 	<head>
 		<title>Clean Blog - Contact</title>
-		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/local.css" rel="stylesheet">
 		<style>
 		 #map {
 		   width: 100%;
@@ -31,7 +29,7 @@
 		<div class="col-sm-12">
 				<div class="jumbotron center-block" style="
 				margin:0;
-				background: url(img/large-open-air-course-with-golf-stick-and-ball-web-header.jpg) no-repeat;
+				background: url(<%= asset_path 'img/large-open-air-course-with-golf-stick-and-ball-web-header.jpg' %> ) no-repeat;
 				display: block;">
 					<h1 style="color:#fff;margin:0;">
 						CLEAN BLOG
@@ -66,7 +64,7 @@
 		</div>
 		<div class="col-sm-9">
 			<h3>Maps</h3>
-			<div id="map"><img src="img/map.png" width="100%" height="100%"></div>
+			<%= image_tag 'img/map.png', :id => 'map' %>
 		</div>
 	</div>
 </section>
@@ -83,7 +81,5 @@
   	</div>
 	</div>
 </footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
